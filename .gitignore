@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.html
+
+# Dependency directories
+# (uncomment if using vendoring)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go bin
+pukiwiki2hugo
+
+# Hugo output directories
+hugo-*
+hugo-book*/
+*.tmp
+
+# vi
+*~
+
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
